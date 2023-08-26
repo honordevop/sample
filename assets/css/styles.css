@@ -253,6 +253,14 @@ body {
 
 /* For small devices */
 @media screen and (max-width: 768px) {
+  .service_category {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .service_wrapper {
+    width: 100%;
+  }
   .view_more_btn {
     display: block;
     margin: 20px;
@@ -262,10 +270,10 @@ body {
     display: none;
   }
 
-  .service_container {
+  /* .service_container {
     border: solid 1px grey;
     border-radius: 0 0 10px 10px;
-  }
+  } */
   /* .service_wrapper {
     display: flex;
     flex-direction: column;
