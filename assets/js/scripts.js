@@ -1,5 +1,5 @@
 const modalViews = document.querySelectorAll(".plan_modal"),
-  modalBtns = document.querySelectorAll(".services__button"),
+  modalBtns = document.querySelectorAll(".open_plan_modal"),
   modalCloses = document.querySelectorAll(".plan__modal-close");
 
 let modal = function (modalClick) {
